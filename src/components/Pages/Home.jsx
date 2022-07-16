@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Carousels from '../layouts/Carousels';
 const Home = () => {
   return (
     <div className='ed-grid'>
-      <h1> Home Bienbenido</h1>
+      <Carousels/>
     </div>
   );
 }

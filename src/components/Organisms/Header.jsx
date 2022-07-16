@@ -1,8 +1,8 @@
-import React, {createRef} from 'react'
+import React, { createRef } from 'react'
 import { NavLink } from 'react-router-dom'
-
-const menu= createRef()
-const  toggleMenu = () => menu.current.classList.toggle('show')
+import { GrUserManager } from "react-icons/gr"
+const menu = createRef()
+const toggleMenu = () => menu.current.classList.toggle('show')
 
 const Header = () => {
   return (
@@ -27,8 +27,13 @@ const Header = () => {
             </ul>
           </nav>
           <div className='main-menu-toggle to-l'
-          onClick={() => toggleMenu()}
+            onClick={() => toggleMenu()}
           ></div>
+        </div>
+        <div className='s-cols-5 lg-cols-1 s-cross-center'>
+          <NavLink to="/login">
+            <GrUserManager />
+          </NavLink>
         </div>
       </div>
     </header>
