@@ -10,6 +10,7 @@ import Page404 from "./Pages/Page404"
 import Protected from "./Routes/Protected";
 import Header from "./Organisms/Header";
 import Login from "./Pages/Login";
+import Servicio from "./Pages/Servicio";
 const App = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const App = () => {
             <Route component={Page404} />
             {/* Rutas de acceso  */}
             <Route path="/login" element ={<Login/ >} />
+            {/* <Route path="/estetica-canina" element={<Servicio/>} /> */}
           </Routes>
         </BrowserRouter>
       </div>

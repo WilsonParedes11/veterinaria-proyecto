@@ -26,19 +26,14 @@
   line-height: 1.5rem;
 }
 
-.nombre-testimonio{
-  font-size: 1.3rem;
-
-}
-
-.cargo-testimonio{
+.contenedor-subtitulo{
   font-size: 1.3rem;
   margin-top: 15px;
   padding-bottom: 30px;
 
 }
 
-.texto-testimonio{
+.texto-historia{
   font-size: 1.1rem;
   text-align: justify;
 }

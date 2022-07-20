@@ -1,31 +1,38 @@
 import React from "react";
 import "../../../src/styles/Nosotros.css"
 import Historia from "../Nosotros/Historia";
-import Fondo from '../Nosotros/Fondo'
+import Fondo from '../Fondo/Fondo';
 import VandM from '../Nosotros/VandM'
 const Nosotros = () => {
   return (
     <>
-      <Fondo />
+      <Fondo
+        imagen='nosotros'
+        titulo='Veterinaria Mundo Mascotas'
+        subtitulo='para servir con amor'
+        descripcion='Conoce mas sobre nosotros'
+      />
+
       <div className="App">
         <div className="contenedor-principal">
           <Historia
-            // nombre='Veterinaria Mundo Mascotas'
             subtitulo="Historia"
             imagen="historia"
-            descripcion='Somos una veterinaria fundada en Guaranda en 2015. Ofrecemos atención médica general y
-      de especialidad para perros y gatos. Nuestro compromiso es brindar una atención cálida y
-      personalizada a cada paciente que nos visita. Sabemos que las mascotas son parte de la familia;
-      por esta razón, contamos con los equipos y la experiencia necesaria para garantizar el bienestar
-      de nuestros pacientes.
+            descripcion="Somos una veterinaria fundada en Guaranda en 2015. Ofrecemos atención médica general y
+                          de especialidad para perros y gatos. Nuestro compromiso es brindar una atención cálida y
+                          personalizada a cada paciente que nos visita. Sabemos que las mascotas son parte de la familia;
+                          por esta razón, contamos con los equipos y la experiencia necesaria para garantizar el bienestar
+                          de nuestros pacientes.
 
-      En los últimos años, Dogtor’s Cat se ha consolidado como un centro líder en la prestación de servicios
-      veterinarios. Varios médicos del país nos refieren a sus pacientes, porque confían en la calidad de nuestra
-      atención. Creemos firmemente que tu mascota se merece un trato de calidad y la última tecnología disponible.'
+                          En los últimos años, Dogtor’s Cat se ha consolidado como un centro líder en la prestación de servicios
+                          veterinarios. Varios médicos del país nos refieren a sus pacientes, porque confían en la calidad de nuestra
+                          atención. Creemos firmemente que tu mascota se merece un trato de calidad y la última tecnología disponible."
           />
         </div>
-
       </div>
+
+
+
 
       {/* <VandM
         titulo="Visión"

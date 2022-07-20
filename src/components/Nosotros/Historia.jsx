@@ -8,9 +8,8 @@ function Historia(props) {
         alt='historia'
       />
       <div className="contenedor-texto-historia">
-        {/* <p className="nombre-testimonio"><strong>{props.nombre}</strong></p> */}
-        <p className="cargo-Testimonio">{props.subtitulo}</p>
-        <p className="texto-testimonio">"{props.descripcion}"</p>
+        <p className="contenedor-subtitulo">{props.subtitulo}</p>
+        <p className="texto-historia">"{props.descripcion}"</p>
 
       </div>
     </div>

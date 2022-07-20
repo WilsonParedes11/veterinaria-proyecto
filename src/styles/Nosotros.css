@@ -29,10 +29,10 @@
   display: flex;
   align-self: center;
   overflow: hidden;
-  
+
 }
+
 /* .App{
-  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
