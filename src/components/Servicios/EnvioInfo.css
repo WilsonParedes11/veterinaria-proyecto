@@ -1,11 +1,11 @@
-/* .contenedor-infromacion {
+.contenedor-infromacion {
   display: flex;
   background-color: #F8F8FF;
   color: black;
   height: 70vh;
   margin: 10px 10px 10px 10px;
   border-radius: 100px;
-} */
+}
 
 .contenedor-titulo {
   display: flex;
@@ -29,7 +29,7 @@
 
 }
 
-/* .contenedor-envio-formulario {
+.contenedor-envio-formulario {
   display: flex;
   align-self: center;
-} */
+}

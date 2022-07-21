@@ -11,6 +11,8 @@ import Protected from "./Routes/Protected";
 import Header from "./Organisms/Header";
 import Login from "./Pages/Login";
 import Servicio from "./Pages/Servicio";
+import Footer from "./Footer/Footer";
+import Info from "./Info/Info";
 const App = () => {
   return (
     <div>
@@ -25,9 +27,12 @@ const App = () => {
             <Route path="/contactos" element={<Contactos />} />
             <Route component={Page404} />
             {/* Rutas de acceso  */}
-            <Route path="/login" element ={<Login/ >} />
+            <Route path="/login" element={<Login />} />
             {/* <Route path="/estetica-canina" element={<Servicio/>} /> */}
           </Routes>
+          <Info></Info>
+          <Footer
+          ></Footer>
         </BrowserRouter>
       </div>
     </div>

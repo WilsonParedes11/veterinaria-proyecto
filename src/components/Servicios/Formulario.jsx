@@ -14,19 +14,19 @@ const Formulario = () => {
     <div className='contenedor-formulario'>
       <form className='formulario' onSubmit={handleSubmit(onSubmit)}>
         {/* <Row className="mb-2"> */}
-        <div >
-          {/* <label>Nombre</label> */}
-          <input
-            type="text"
-            {...register('nombre', { required: true })}
-            placeholder="Nombre" />
-          {errors.nombre?.type === 'required' && <p>El compo nombre es requerido</p>}
-        </div>
-        <div>
-          {/* <label>Apellido</label> */}
-          <input type="text" {...register('apellido', { required: true })} placeholder="Apellido" />
-          {errors.apellido?.type === 'required' && <p>El compo es requerido</p>}
-        </div>
+          <div >
+            {/* <label>Nombre</label> */}
+            <input
+              type="text"
+              {...register('nombre', { required: true })}
+              placeholder="Nombre" />
+            {errors.nombre?.type === 'required' && <p>El compo nombre es requerido</p>}
+          </div>
+          <div>
+            {/* <label>Apellido</label> */}
+            <input type="text" {...register('apellido', { required: true })} placeholder="Apellido" />
+            {errors.apellido?.type === 'required' && <p>El compo es requerido</p>}
+          </div>
         {/* </Row> */}
         <div>
           {/* <label>Email</label> */}
@@ -45,9 +45,8 @@ const Formulario = () => {
           <textarea {...register('mensaje', { required: true })} rows="4" cols="40" placeholder="Mensaje"></textarea>
           {errors.mensaje?.type === 'required' && <p>El compo es requerido</p>}
         </div>
-        <input className='envio-informacion' type="submit" value="Enviar" />
-
-        {/* <button className='envio-informacion' type='submit' >Enviar</button> */}
+        {/* <input className='envio-informacion' type="submit" value="Enviar" /> */}
+        <button className='envio-informacion' type='submit'>Enviar</button>
       </form>
     </div>
   )

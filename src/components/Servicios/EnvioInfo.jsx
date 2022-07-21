@@ -4,7 +4,6 @@ import Formulario from './Formulario'
 
 const EnvioInfo = () => {
   return (
-    
     <div className='contenedor-infromacion'>
       <div className='contenedor-titulo'>
         <h2>Déjanos ayudarte</h2>
@@ -13,10 +12,9 @@ const EnvioInfo = () => {
           Estaremos gustosos de atenderte
         </p>
       </div>
-      {/* <div className='contenedor-envio-formulario'>
+      <div className='contenedor-envio-formulario'>
         <Formulario />
-      </div> */}
-      <Formulario />
+      </div>
     </div>
   )
 }
