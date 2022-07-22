@@ -13,12 +13,14 @@ import Login from "./Pages/Login";
 import Servicio from "./Pages/Servicio";
 import Footer from "./Footer/Footer";
 import Info from "./Info/Info";
+import Navbar from "./Nav/Navbar";
 const App = () => {
   return (
     <div>
       <div>
         <BrowserRouter>
-          <Header></Header>
+          {/* <Header></Header> */}
+          <Navbar></Navbar>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/nosotros" element={<Nosotros />} />

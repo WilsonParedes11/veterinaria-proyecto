@@ -25,7 +25,8 @@
 }
 
 .about-img {
-  width: 45%;
+  height: 100%;
+  /* width: 50%; */
   display: flex;
   align-self: center;
   overflow: hidden;

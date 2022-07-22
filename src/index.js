@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import App from './components/App';
-import "./styles/styless.scss";
+//import "./styles/styless.scss";
 import store from './redux/store';
 import { Provider } from "react-redux"
 // import { getAllServicios } from './redux/actionCreators';

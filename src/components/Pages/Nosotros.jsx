@@ -31,13 +31,15 @@ const Nosotros = () => {
       <div className="about-container">
         <div className="about-desc">
           <h3>Misión</h3>
-          <p> Misión
+          <p> 
             Brindar un servicio de calidad a través de la actualización constante que demanda la medicina
             veterinaria y fomentar el amor, cuidado y bienestar de las mascotas, garantizando una atención
             integral las 24 horas, los 365 días del año.</p>
-
+          <br />
           <h3>Visión</h3>
-          <p>Ser capaces de enfrentar y superar los retos de una profesión que cada día demanda más empeño,
+
+          <p>
+            Ser capaces de enfrentar y superar los retos de una profesión que cada día demanda más empeño,
             compromiso y sacrificio, creando así un liderazgo en la atención veterinaria de las pequeñas
             especies.</p>
         </div>
