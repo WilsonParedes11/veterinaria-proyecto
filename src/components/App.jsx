@@ -30,9 +30,12 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             {/* <Route path="/estetica-canina" element={<Servicio/>} /> */}
           </Routes>
-          <Info></Info>
+          <Info
+          titulo='PARA SERVIR CON AMOR'
+          />
           <Footer
-          ></Footer>
+          imagen='logo'
+          />
         </BrowserRouter>
       </div>
     </div>

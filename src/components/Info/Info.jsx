@@ -1,13 +1,12 @@
 import React from 'react'
-
 import '../Info/Info.css'
-const Info = () => {
+
+function Info(pros) {
   return (
     <div className='Info-container'>
       <div className='info'>
-        <h1>PARA SERVIR CON AMOR</h1>
+        <h1>{pros.titulo}</h1>
       </div>
-     
     </div>
   )
 }

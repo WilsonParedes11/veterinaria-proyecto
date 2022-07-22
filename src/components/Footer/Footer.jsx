@@ -3,14 +3,14 @@ import './Footer.css'
 import { GrInstagram, GrFacebook, GrTwitter } from "react-icons/gr"
 import { FaWhatsapp, FaPhoneAlt,FaEnvelopeOpen } from "react-icons/fa"
 import { ImLocation2 } from "react-icons/im";
-const Footer = (props) => {
+function Footer (props) {
   return (
     <footer class="pie-pagina">
       <div class="grupo-1">
         <div class="box">
           <figure>
             <a href="#">
-              {/* <img src={props.imagen} />  poner logo*/}
+              <img src={require(`../img/${props.imagen}.png`)}/>
             </a>
           </figure>
         </div>
