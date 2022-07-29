@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 import { FaAngleRight } from "react-icons/fa";
+// import funtions from './funtions'
 
 function Navbar(props) {
   
