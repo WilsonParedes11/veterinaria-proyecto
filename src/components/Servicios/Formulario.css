@@ -3,8 +3,8 @@
 }
 
 .contenedor-formulario {
-  width: 500px;
-  
+  width: 400px;
+
 }
 
 .formulario {
@@ -20,6 +20,7 @@
 
 .formulario>div>input {
   padding: 10px 10px 10px 5px;
+  width: 100%;
   display: block;
   border: none;
   border-bottom: 1px solid var(--colorTextos);
@@ -30,11 +31,15 @@
   background-color: #1E90FF;
   border-radius: 5px;
   display: block;
-  width: 100%;
+  width: 80%;
   border: none;
   color: #fff;
   height: 40px;
   font-size: 16px;
   cursor: pointer;
-  margin: 10px 0;
+  margin: 10px auto;
+}
+
+.contenedor-mensaje{
+  width: 100%;
 }

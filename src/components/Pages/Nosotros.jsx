@@ -5,6 +5,7 @@ import Fondo from '../Fondo/Fondo';
 import VandM from '../Nosotros/VandM'
 import Ecard from "../EdeTrabajo/Ecard";
 import Info from "../Info/Info";
+import Perfil from "../PerfilVeterinario/Perfil";
 const Nosotros = () => {
   return (
     <>
@@ -76,6 +77,7 @@ const Nosotros = () => {
           informacion='Desde muy pequeño tuve contacto con los animales y con la medicina para animales.'
         />
       </div>
+      <Perfil/>
 
     </>
 

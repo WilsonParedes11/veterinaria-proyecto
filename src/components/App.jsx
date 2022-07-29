@@ -20,7 +20,8 @@ const App = () => {
       <div>
         <BrowserRouter>
           {/* <Header></Header> */}
-          <Navbar></Navbar>
+          <Navbar
+          imagen='logo'></Navbar>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/nosotros" element={<Nosotros />} />

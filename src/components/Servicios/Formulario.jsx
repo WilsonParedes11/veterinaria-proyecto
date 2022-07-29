@@ -25,7 +25,7 @@ const Formulario = () => {
           <div>
             {/* <label>Apellido</label> */}
             <input type="text" {...register('apellido', { required: true })} placeholder="Apellido" />
-            {errors.apellido?.type === 'required' && <p>El compo es requerido</p>}
+            {errors.apellido?.type === 'required' && <p>El apellido es compo es requerido</p>}
           </div>
         {/* </Row> */}
         <div>
@@ -42,7 +42,7 @@ const Formulario = () => {
         </div>
         <div>
           {/* <label> Mensaje</label> */}
-          <textarea {...register('mensaje', { required: true })} rows="4" cols="40" placeholder="Mensaje"></textarea>
+          <textarea className='contenedor-mensaje' {...register('mensaje', { required: true })} rows="4" cols="40" placeholder="Mensaje"></textarea>
           {errors.mensaje?.type === 'required' && <p>El compo es requerido</p>}
         </div>
         {/* <input className='envio-informacion' type="submit" value="Enviar" /> */}

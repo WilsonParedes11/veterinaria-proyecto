@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 .contenedor-historia{
   width: 1170px;
   height: 368px;
@@ -21,7 +23,7 @@
   text-align: center;
   text-align: center;
   padding: 40px;
-  font-family: Lato, sans-serif;
+  font-family: 'Poppins', sans-serif;  
   font-weight: 400;
   line-height: 1.5rem;
 }
