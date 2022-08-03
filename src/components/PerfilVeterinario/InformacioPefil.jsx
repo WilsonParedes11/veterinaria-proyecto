@@ -37,8 +37,8 @@ const InformacioPefil = ({
 export default InformacioPefil
 
 const Overlay = styled.div`
-  width:100vw;
-  height: 100vh;
+  // width:100vw;
+  // height: 100vh;
   position:flexd;
   top:0;
   left:0;

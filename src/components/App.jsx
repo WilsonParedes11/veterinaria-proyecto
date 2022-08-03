@@ -7,10 +7,10 @@ import Servicios from "./Pages/Servicios"
 import Productos from "./Pages/Productos"
 import Contactos from "./Pages/Contactos"
 import Page404 from "./Pages/Page404"
-import Protected from "./Routes/Protected";
-import Header from "./Organisms/Header";
+// import Protected from "./Routes/Protected";
+// import Header from "./Organisms/Header";
 import Login from "./Pages/Login";
-import Servicio from "./Pages/Servicio";
+// import Servicio from "./Pages/Servicio";
 import Footer from "./Footer/Footer";
 import Info from "./Info/Info";
 import Navbar from "./Nav/Navbar";

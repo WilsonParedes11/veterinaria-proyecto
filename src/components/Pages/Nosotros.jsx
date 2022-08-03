@@ -1,12 +1,16 @@
-import React from "react";
+import { React, useState } from 'react'
 import "../../../src/styles/Nosotros.css"
 import Historia from "../Nosotros/Historia";
 import Fondo from '../Fondo/Fondo';
-import VandM from '../Nosotros/VandM'
 import Ecard from "../EdeTrabajo/Ecard";
 import Info from "../Info/Info";
 import Perfil from "../PerfilVeterinario/Perfil";
+import Card from '../Servicios/Card'
+import Tarjeta from "../EdeTrabajo/Tarjeta"
+
 const Nosotros = () => {
+
+
   return (
     <>
       <Fondo
@@ -32,7 +36,7 @@ const Nosotros = () => {
       <div className="about-container">
         <div className="about-desc">
           <h3>Misión</h3>
-          <p> 
+          <p>
             Brindar un servicio de calidad a través de la actualización constante que demanda la medicina
             veterinaria y fomentar el amor, cuidado y bienestar de las mascotas, garantizando una atención
             integral las 24 horas, los 365 días del año.</p>
@@ -56,28 +60,30 @@ const Nosotros = () => {
       />
 
       <div className="contenedor-equipo">
-        <Ecard
+
+        <Tarjeta
           imagen='https://www.dogtorscat.com/wp-content/uploads/2019/09/foto-dsk-Pablo.png'
           nombre='Cristopher Solano'
           cargo='Doctor en Medicina Veterinaria y Zootecnia'
-          informacion='Las mascotas necesitan profesionales que estén al nivel para darles un buen tratamiento.'
         />
-        <Ecard
+
+        <Tarjeta
           imagen='https://www.dogtorscat.com/wp-content/uploads/2019/09/foto_dsk_Carla_Rengel.png'
 
           nombre='Edith López '
           cargo='Doctora en Medicina Veterinaria y Zootecnia'
-          informacion='Me hice veterinaria porque en esta profesión puedo ayudar a seres que no tienen voz y que solo dan amor'
         />
-        <Ecard
+
+        <Tarjeta
           imagen='https://www.dogtorscat.com/wp-content/uploads/2019/09/foto_dsk_Esteban_Mier.png'
 
           nombre='XXXXX '
           cargo='Doctor en Medicina Veterinaria y Zootecnia'
-          informacion='Desde muy pequeño tuve contacto con los animales y con la medicina para animales.'
         />
+
       </div>
-      <Perfil/>
+
+      <Perfil />
 
     </>
 

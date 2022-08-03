@@ -10,10 +10,10 @@ function Card(props) {
         </div>
         <div className='contenedor-informacion'>
           <div className='contenedor-titulo'>
-            <h3>{props.titulo}</h3>
+            <h3>{props.nombre}</h3>
           </div>
           <div className='contenedor-descripcion'>
-            <p>{props.descripcion}</p>
+            <p>{props.cargo}</p>
           </div>
 
         </div>
