@@ -13,6 +13,7 @@ import Login from "./Pages/Login";
 // import Servicio from "./Pages/Servicio";
 import Footer from "./Footer/Footer";
 import Info from "./Info/Info";
+import EnvioInfo from '../components/Servicios/EnvioInfo'
 import Navbar from "./Nav/Navbar";
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             {/* <Route path="/estetica-canina" element={<Servicio/>} /> */}
           </Routes>
+          <EnvioInfo/>
           <Info
           titulo='PARA SERVIR CON AMOR'
           />

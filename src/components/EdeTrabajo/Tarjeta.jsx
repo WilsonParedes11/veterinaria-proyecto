@@ -1,8 +1,10 @@
 import { React, useState } from 'react'
 import './Tarjeta.css'
+import { UseModal } from '../Modals/useModal'
+import Modal from '../Modals/Modal'
 function Tarjeta(props) {
-  const [estadoInicial, mostrarInformacion] = useState(false);
-
+  const [isOpen1, openModal, closeModal1] = UseModal(false)
+  const [isOpen2, closeModal2] = UseModal(false)
   return (
     <>
       <div className='contenedor-tarjeta'>
@@ -17,9 +19,7 @@ function Tarjeta(props) {
             <p>{props.cargo}</p>
           </div>
         </div>
-        <button onClick={
-          () => mostrarInformacion(!estadoInicial)}
-        >Ver Perfil</button>
+        <button onClick={props.darClick}>Ver Perfil</button>
       </div>
     </>
 

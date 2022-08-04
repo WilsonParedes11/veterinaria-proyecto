@@ -1,15 +1,11 @@
-import { React, useState } from 'react'
+import React from 'react'
 import "../../../src/styles/Nosotros.css"
 import Historia from "../Nosotros/Historia";
 import Fondo from '../Fondo/Fondo';
-import Ecard from "../EdeTrabajo/Ecard";
+
 import Info from "../Info/Info";
-import Perfil from "../PerfilVeterinario/Perfil";
-import Card from '../Servicios/Card'
-import Tarjeta from "../EdeTrabajo/Tarjeta"
-
+import Equipo from '../Equipo/Equipo'
 const Nosotros = () => {
-
 
   return (
     <>
@@ -58,33 +54,7 @@ const Nosotros = () => {
       <Info
         titulo='Nuestro Equipo'
       />
-
-      <div className="contenedor-equipo">
-
-        <Tarjeta
-          imagen='https://www.dogtorscat.com/wp-content/uploads/2019/09/foto-dsk-Pablo.png'
-          nombre='Cristopher Solano'
-          cargo='Doctor en Medicina Veterinaria y Zootecnia'
-        />
-
-        <Tarjeta
-          imagen='https://www.dogtorscat.com/wp-content/uploads/2019/09/foto_dsk_Carla_Rengel.png'
-
-          nombre='Edith López '
-          cargo='Doctora en Medicina Veterinaria y Zootecnia'
-        />
-
-        <Tarjeta
-          imagen='https://www.dogtorscat.com/wp-content/uploads/2019/09/foto_dsk_Esteban_Mier.png'
-
-          nombre='XXXXX '
-          cargo='Doctor en Medicina Veterinaria y Zootecnia'
-        />
-
-      </div>
-
-      <Perfil />
-
+      <Equipo />
     </>
 
 
