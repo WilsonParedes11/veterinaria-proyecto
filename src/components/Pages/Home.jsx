@@ -3,6 +3,8 @@ import Slider from '../layouts/Slider';
 
 import Fondo from '../Fondo/Fondo';
 import '../../styles/Home.css'
+import Testimonio from '../Testimonios/Testimonio';
+import Atencion from '../Atencion/Atencion';
 
 const Home = () => {
   return (
@@ -19,6 +21,9 @@ const Home = () => {
         subtitulo=''
         descripcion=''
       />
+      <Slider />
+      <Atencion />
+      <Testimonio />
     </>
   );
 }

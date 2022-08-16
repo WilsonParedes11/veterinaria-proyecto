@@ -1,17 +1,18 @@
-import React from 'react'
+import { React, useContext } from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
-import { FaAngleRight } from "react-icons/fa";
-// import funtions from './funtions'
+import { FaUserAlt, FaCartPlus } from "react-icons/fa";
 
 function Navbar(props) {
-  
+
+
+
   return (
     <nav className="menu">
       <section className="menu__container">
         {/* <h1 className="menu__logo"> */}
         <NavLink className="menu__logo" to="/">
-        <img src={require(`../img/${props.imagen}.png`)}/>
+          <img src={require(`../img/${props.imagen}.png`)} />
         </NavLink>
         {/* </h1> */}
 
@@ -82,6 +83,16 @@ function Navbar(props) {
             <NavLink className="menu__link" to="/contactos"> Contactos </NavLink>
           </li>
         </ul>
+        <div className='contenedor-login'>
+          <NavLink to="/login">
+            <FaUserAlt />
+          </NavLink>
+        </div>
+
+        <div className='contenedor-cart'>
+          <FaCartPlus />
+          <span className='item-total'>0</span>
+        </div>
 
         <div className="menu__hamburguer">
           {/* <img src="assets/menu.svg" className="menu__img"> */}
