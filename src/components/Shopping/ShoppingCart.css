@@ -14,3 +14,7 @@
 .contenedor-productos {
   padding-top: 100px;
 }
+
+.producto__img img {
+  width: 175px;
+}
